@@ -26,7 +26,7 @@ Ahora puedes abrir [http://localhost:5173](http://localhost:5173) en tu navegado
 
 ## Despliegue
 
-Este proyecto está desplegado en Vercel. Puedes encontrar instrucciones sobre cómo hacerlo en la [documentación oficial de Vercel](https://vercel.com/docs).
+Este proyecto se puede desplegar en Vercel. Puedes encontrar instrucciones sobre cómo hacerlo en la [documentación oficial de Vercel](https://vercel.com/docs).
 
 ## Contribución
 

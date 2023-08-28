@@ -1,8 +1,37 @@
-# React + Vite
+# JS Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JS Quiz es una aplicación web interactiva de cuestionario construida con React y Zustand. Los usuarios pueden responder a un conjunto de preguntas y obtener su puntuación al final del cuestionario.
 
-Currently, two official plugins are available:
+## Instalación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para ejecutar este proyecto localmente, sigue estos pasos:
+
+1. Clona el repositorio:
+
+   git clone https://github.com/Fabriziomgh/js-quizz.git
+
+2. Navega al directorio del proyecto:
+
+   cd js-quizz
+
+3. Instala las dependencias:
+
+   npm install o pnpm install
+
+4. Inicia el servidor de desarrollo:
+
+   npm run dev o pnpm run dev
+
+Ahora puedes abrir [http://localhost:5173](http://localhost:5173) en tu navegador para ver la aplicación.
+
+## Despliegue
+
+Este proyecto está desplegado en Vercel. Puedes encontrar instrucciones sobre cómo hacerlo en la [documentación oficial de Vercel](https://vercel.com/docs).
+
+## Contribución
+
+Las contribuciones son bienvenidas. Si encuentras un error o tienes una sugerencia, por favor abre un problema en este repositorio.
+
+## Licencia
+
+Este proyecto está licenciado bajo los términos de la licencia MIT.

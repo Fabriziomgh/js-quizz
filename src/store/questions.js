@@ -1,6 +1,8 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
+import data from '../data/data.json';
+
 export const useQuestionsStore = create(
    persist(
       (set, get) => {
@@ -8,9 +10,7 @@ export const useQuestionsStore = create(
             questions: [],
             currentQuestion: 0,
 
-            fetchQuestions: async (limit) => {
-               const response = await fetch('http://localhost:5173/data.json');
-               const data = await response.json();
+            fetchQuestions: (limit) => {
                const questions = data
                   .sort(() => Math.random() - 0.5)
                   .slice(0, limit);
